@@ -2,6 +2,7 @@
 
 * [簡介](README.md)
 * [联络译者](contact.md)
+* [译者鸣谢](translator\_comment.md)
 * [1. 前言](introduction/README.md)
   * [1.1. 本书的读者](introduction/readers.md)
   * [1.2. 平台与编译器](introduction/platform\_compiler.md)
@@ -78,4 +79,3 @@
   * [10.2. 网站参考资料](reference/wang\_zhan\_can\_kao\_zi\_liao.md)
   * [10.3. RFC](reference/rfc.md)
 * [11. 原着鸣谢](original\_comment.md)
-* [12-译者鸣谢](translator\_comment.md)
