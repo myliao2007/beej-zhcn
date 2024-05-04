@@ -43,7 +43,7 @@ sockfd = socket(res->ai_family, res->ai_socktype, res->ai_protocol);
 connect(sockfd, res->ai_addr, res->ai_addrlen);
 ```
 
-老学校的程序再次填满了它们自己的 struct sockaddr\_ins 并传给 connect()。如果你愿意的话，你可以这样做。请见上面 bind() 章节中类似的提点。\
+老式的程序再次填满了它们自己的 struct sockaddr\_ins 并传给 connect()。如果你愿意的话，你可以这样做。请见上面 bind() 章节中类似的提点。\
 \
 要确定有检查 connect() 返回的值，它在错误时会返回 -1，并设定 errno 变量。\
 \
